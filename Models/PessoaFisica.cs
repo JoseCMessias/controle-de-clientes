@@ -8,10 +8,6 @@ namespace desenvolvimento_de_sistema_de_controle_de_clientes.Models
 {
     public class PessoaFisica : Cliente
     {
-        public PessoaFisica(float valor) : base(valor)
-        {
-        }
-
         public string Cpf { get; set; }
         public string Rg { get; set; }
     }
