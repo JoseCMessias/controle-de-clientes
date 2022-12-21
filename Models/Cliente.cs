@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace desenvolvimento_de_sistema_de_controle_de_clientes.Models
+﻿namespace desenvolvimento_de_sistema_de_controle_de_clientes.Models
 {
     public class Cliente
     {
@@ -16,8 +14,5 @@ namespace desenvolvimento_de_sistema_de_controle_de_clientes.Models
             this.ValorImposto = this.Valor * 10 / 100;
             this.Total = this.Valor + this.ValorImposto;
         }
-
-
-
     }
 }

@@ -1,5 +1,4 @@
-﻿using System;
-using desenvolvimento_de_sistema_de_controle_de_clientes.Models;
+﻿using desenvolvimento_de_sistema_de_controle_de_clientes.Models;
 
 namespace Senai
 {
@@ -14,7 +13,6 @@ namespace Senai
             var varEndereco = Console.ReadLine();
             Console.Write("Pessoa Física (f) ou Jurídica (j): ");
             var varTipo = Console.ReadLine().ToLower();
-
 
             switch (varTipo)
             {
@@ -39,7 +37,6 @@ namespace Senai
                     Console.WriteLine($"Imposto .......: {pf.ValorImposto.ToString("C")}");
                     Console.WriteLine($"Total .........: {pf.Total.ToString("C")}");
                     break;
-
                 case "j":
                     // Pessoa Jurídica 
                     PessoasJuridica pj = new PessoasJuridica();
@@ -55,7 +52,7 @@ namespace Senai
                     Console.WriteLine("-------- Pessoas Jurídica --------");
                     Console.WriteLine($"Nome ..........: {pj.Nome}");
                     Console.WriteLine($"Endereço ......: {pj.Endereco}");
-                    Console.WriteLine($"CNPJ ...........: {pj.Cnpj}");
+                    Console.WriteLine($"CNPJ ..........: {pj.Cnpj}");
                     Console.WriteLine($"IE ............: {pj.Ie}");
                     Console.WriteLine($"Valor de compra: {pj.Valor.ToString("C")}");
                     Console.WriteLine($"Imposto .......: {pj.ValorImposto.ToString("C")}");
@@ -65,10 +62,7 @@ namespace Senai
                     Console.WriteLine("Função inexistente!");
                     Console.WriteLine("Digite F ou J");
                     break;
-
             }
-
-
         }
     }
 }
