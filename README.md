@@ -1,2 +1,2 @@
-# desenvolvimento-de-sistema-de-controle-de-clientes
+# Desenvolvimento de um sistema de controle de clientes
 SENAI Atividade 1 
